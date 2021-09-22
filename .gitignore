@@ -1,0 +1,8 @@
+# 모듈 제외
+node_modules
+
+# build 제외
+dist
+
+# 파일 제외
+package-lock.json
