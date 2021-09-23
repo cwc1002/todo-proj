@@ -1,5 +1,5 @@
 import {data} from '../data';
-import TodoItem from '../TodoItem';
+import TodoItem from '../model/TodoItem';
 import TodoCollection from './TodoCollection';
 
 const sampleTodos : TodoItem[] = data.map(
