@@ -10,6 +10,6 @@ export default class TodoItem {
   }
 
   printDetails(): void {
-    console.log(`${this.id}\t${this.task}\t${this.complete ? "\tcomplete":"\tnot"}`);
+    console.log(`${this.id} ${this.task}\t${this.complete ? "complete":"not"}`);
   }
 }

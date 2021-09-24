@@ -1,4 +1,7 @@
 export enum Commands {
   Quit = "QUIT",
-  Add = "ADD"
+  Toggle = "Show/Hide Completed",
+  Add = "Add New Task",
+  Complete = "Complete Task",
+  Purge = "Remove Completed Tasks",
 }
